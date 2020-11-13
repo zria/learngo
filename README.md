@@ -1,2 +1,2 @@
 # learngo
-Belajar Bahasa Pmerograman Go
+Belajar Bahasa Pemrograman Go
