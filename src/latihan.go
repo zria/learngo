@@ -1,9 +1,9 @@
 package main
 
 import (
-	"bufio"
-	"fmt" //package fmt untuk input/output
-	"os"
+	"bufio"   //package scanner reader or write
+	"fmt"     //package fmt untuk input/output
+	"os"      //menyediakan antarmuka platform-independen untuk fungsionalitas sistem operasi
 	"strconv" //conversi string ke tipe data lain
 )
 
