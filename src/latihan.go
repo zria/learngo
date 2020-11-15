@@ -8,10 +8,41 @@ import (
 )
 
 func main() {
+
 	var umur = 21                  //variabel dan tipe data
 	var nama = "Rony Samuel Tamba" //variabel dan tipe data
 	Scanner := bufio.NewScanner(os.Stdin)
 	Scanner.Scan()
+
+	//Conditions and Boolean Expressions
+
+	//Arithmetic and Math Go
+	//1. Integer
+	var num1 int = 12
+	var num2 int = 10
+	var num3 int = 2
+
+	answer := (num1 + num2) * num3
+	fmt.Printf("%d", answer+6)
+	fmt.Println()
+
+	//1.1 Integer modulus
+	var mod1 int = 10
+	var mod2 int = 4
+
+	answermod := mod1 / mod2
+	fmt.Printf("%d", answermod)
+	fmt.Println()
+
+	//2. Float
+	var numf1 float32 = 9
+	var numf2 float32 = 4
+
+	answerfloat := (numf1 / numf2)
+	fmt.Printf("%g", answerfloat)
+	fmt.Println()
+
+	//End of Arithmetic and Math Go session
 
 	fmt.Println("Hello World, My name is", nama, ", im", umur) //Cetak data
 	fmt.Printf("100 is binary from : %b", 100)                 //Print console fmt binary
