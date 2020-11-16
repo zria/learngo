@@ -14,13 +14,27 @@ func main() {
 	Scanner := bufio.NewScanner(os.Stdin)
 	Scanner.Scan()
 
-	//Conditions and Boolean Expressions
+	//Conditions and Boolean Expressions (<, >, <=, >=, ==, !=)
 
 	x := 5
 	y := 6.5
 
 	val := float64(x)+1.5 == y
 	fmt.Printf("%t", val)
+	fmt.Println()
+	//End Conditions and Boolean Expressions
+
+	//Chained Conditionals (AND (&&), OR (||), NOT(!))
+
+	z := 9
+	val = (true || false) && !false || z < 10
+	fmt.Printf("%t", val)
+
+	//End of Chained Conditionals
+
+	//IF, ELSE, ELSE IF
+
+	//End Of IF, ELSE, ELSE IF
 
 	//Arithmetic and Math Go
 
