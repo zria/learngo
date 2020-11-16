@@ -16,7 +16,15 @@ func main() {
 
 	//Conditions and Boolean Expressions
 
+	x := 5
+	y := 6.5
+
+	val := float64(x)+1.5 == y
+	fmt.Printf("%t", val)
+
 	//Arithmetic and Math Go
+
+	fmt.Println()
 	//1. Integer
 	var num1 int = 12
 	var num2 int = 10
