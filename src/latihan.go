@@ -29,10 +29,21 @@ func main() {
 	z := 9
 	val = (true || false) && !false || z < 10
 	fmt.Printf("%t", val)
+	fmt.Println()
 
 	//End of Chained Conditionals
 
 	//IF, ELSE, ELSE IF
+
+	age := 13
+
+	if age >= 18 {
+		fmt.Println("Kamu boleh menyetir sendiri")
+	} else if age >= 14 {
+		fmt.Println("Kamu belum boleh menyetir didampingi orang tua")
+	} else {
+		fmt.Printf("Tunggu %d tahun lagi", 18-age)
+	}
 
 	//End Of IF, ELSE, ELSE IF
 
