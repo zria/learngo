@@ -1,9 +1,12 @@
 package main
 
 import (
-	"bufio"   //package scanner reader or write
-	"fmt"     //package fmt untuk input/output
-	"os"      //menyediakan antarmuka platform-independen untuk fungsionalitas sistem operasi
+	//package scanner reader or write
+	"bufio"
+	"fmt" //package fmt untuk input/output
+	"os"
+
+	//menyediakan antarmuka platform-independen untuk fungsionalitas sistem operasi
 	"strconv" //conversi string ke tipe data lain
 )
 
@@ -11,8 +14,6 @@ func main() {
 
 	var umur = 21                  //variabel dan tipe data
 	var nama = "Rony Samuel Tamba" //variabel dan tipe data
-	Scanner := bufio.NewScanner(os.Stdin)
-	Scanner.Scan()
 
 	//Conditions and Boolean Expressions (<, >, <=, >=, ==, !=)
 
@@ -35,7 +36,11 @@ func main() {
 
 	//IF, ELSE, ELSE IF
 
-	age := 13
+	var age int16
+
+	fmt.Print("Masukan umur")
+	Scanner := bufio.NewScanner(os.Stdin)
+	Scanner.Scan()
 
 	if age >= 18 {
 		fmt.Println("Kamu boleh menyetir sendiri")
