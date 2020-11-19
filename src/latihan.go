@@ -36,7 +36,7 @@ func main() {
 
 	//IF, ELSE, ELSE IF
 
-	var age int16
+	var age int = 18
 
 	fmt.Print("Masukan umur")
 	Scanner := bufio.NewScanner(os.Stdin)
