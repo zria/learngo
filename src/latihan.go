@@ -15,6 +15,20 @@ func main() {
 	var umur = 21                  //variabel dan tipe data
 	var nama = "Rony Samuel Tamba" //variabel dan tipe data
 
+	//for loops & while loops
+
+	i := 1
+
+	for i < 6 {
+
+		fmt.Println(i)
+
+		i++
+
+	}
+
+	//for loops & while loops
+
 	//Conditions and Boolean Expressions (<, >, <=, >=, ==, !=)
 
 	x := 5
