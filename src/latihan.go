@@ -17,7 +17,7 @@ func main() {
 
 	//for loops & while loops
 
-	i := 1
+	i := 2
 
 	for i < 6 {
 
@@ -39,7 +39,7 @@ func main() {
 	//Conditions and Boolean Expressions (<, >, <=, >=, ==, !=)
 
 	x := 5
-	y := 6.5
+	y := 7.5
 
 	val := float64(x)+1.5 == y
 	fmt.Printf("%t", val)
