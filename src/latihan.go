@@ -15,6 +15,21 @@ func main() {
 	var umur = 21                  //variabel dan tipe data
 	var nama = "Rony Samuel Tamba" //variabel dan tipe data
 
+	//swicth statement
+
+	ans := 100
+
+	switch {
+	case ans > 0:
+		fmt.Println("greater than 0")
+	case ans < 0:
+		fmt.Println("less then 0")
+	default:
+		fmt.Println("zero")
+	}
+
+	//end swicth statement
+
 	//for loops & while loops
 
 	i := 3
