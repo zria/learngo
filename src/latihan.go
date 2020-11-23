@@ -17,7 +17,7 @@ func main() {
 
 	//for loops & while loops
 
-	i := 2
+	i := 3
 
 	for i < 6 {
 
