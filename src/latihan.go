@@ -94,7 +94,7 @@ func main() {
 	//1. Integer
 	var num1 int = 12
 	var num2 int = 10
-	var num3 int = 2
+	var num3 int = 4
 
 	answer := (num1 + num2) * num3
 	fmt.Printf("%d", answer+6)
