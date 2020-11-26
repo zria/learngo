@@ -97,7 +97,7 @@ func main() {
 	var num3 int = 4
 
 	answer := (num1 + num2) * num3
-	fmt.Printf("%d", answer+7)
+	fmt.Printf("%d", answer+6)
 	fmt.Println()
 
 	//1.1 Integer modulus
