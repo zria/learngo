@@ -110,7 +110,7 @@ func main() {
 
 	//2. Float
 	var numf1 float32 = 9
-	var numf2 float32 = 9
+	var numf2 float32 = 7
 
 	answerfloat := (numf1 / numf2)
 	fmt.Printf("%g", answerfloat)
