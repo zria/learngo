@@ -12,6 +12,10 @@ import (
 
 func main() {
 
+	//Penggajian
+
+	//
+
 	var umur = 21                  //variabel dan tipe data
 	var nama = "Rony Samuel Tamba" //variabel dan tipe data
 
@@ -72,7 +76,7 @@ func main() {
 
 	//IF, ELSE, ELSE IF
 
-	var age int = 18
+	var age int
 
 	fmt.Print("Masukan umur")
 	Scanner := bufio.NewScanner(os.Stdin)
